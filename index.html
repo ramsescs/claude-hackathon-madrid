@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>20 minutos para Turia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-texture"></div>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot"></span>
+      <span class="logo-text">Turia Nocturna</span>
+    </div>
+    <div class="tagline">20 minutos para Turia</div>
+  </header>
+
+  <main class="shell">
+    <section class="card intro">
+      <div class="copy">
+        <p class="eyebrow">LLENA TU TURIA</p>
+        <h1>Vibe &amp; Maridaje</h1>
+        <p class="lead">Elige tu estado, tu momento y con quién brindas. Turia te devuelve un maridaje, una playlist inventada y un texto corto que te pone en marcha.</p>
+        <div class="jar">
+          <div class="jar-glass">
+            <svg viewBox="0 0 120 160" aria-hidden="true">
+              <path class="jar-outline" d="M30 20 h60 q10 0 10 10 v105 q0 15-15 15 h-50 q-15 0-15-15 v-105 q0-10 10-10 z" fill="none" stroke-width="4" stroke-linejoin="round"/>
+              <path class="jar-handle" d="M90 40 h16 q10 0 10 10 v40 q0 10-10 10 h-16" fill="none" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+            <div class="beer-level"></div>
+            <div class="foam"></div>
+          </div>
+          <p class="jar-note">Animación sin puntuación, solo para ver cómo se llena tu Turia.</p>
+        </div>
+      </div>
+
+      <form class="vibe-form" id="vibeForm">
+        <label>
+          Estado de ánimo
+          <select id="moodSelect" required>
+            <option value="">Elige uno</option>
+            <option>Relajado</option>
+            <option>Festivo</option>
+            <option>Curioso</option>
+            <option>Intenso</option>
+            <option>Romántico</option>
+            <option>Caótico-bueno</option>
+          </select>
+        </label>
+
+        <fieldset class="moment-toggle">
+          <legend>Momento</legend>
+          <div class="toggle-group">
+            <button type="button" data-moment="Tarde" class="toggle-btn active">Tarde</button>
+            <button type="button" data-moment="Noche" class="toggle-btn">Noche</button>
+          </div>
+        </fieldset>
+
+        <label>
+          Compañía
+          <select id="companySelect" required>
+            <option value="">Elige una</option>
+            <option>Solo</option>
+            <option>Pareja</option>
+            <option>Amigos</option>
+            <option>Gente nueva</option>
+          </select>
+        </label>
+
+        <div class="actions">
+          <button type="submit" class="primary">Generar vibe</button>
+          <button type="button" id="surpriseBtn" class="ghost">Modo sorpresa</button>
+        </div>
+        <p class="hint">Todo queda en tu dispositivo. No hay llamadas externas.</p>
+      </form>
+    </section>
+
+    <section class="card result" id="resultCard" hidden>
+      <div class="result-head">
+        <div>
+          <p class="eyebrow">Resultado Turia</p>
+          <h2 id="vibeTitle">Tu vibe está servida</h2>
+        </div>
+        <div class="result-actions">
+          <button type="button" id="regenBtn" class="secondary">Regenerar</button>
+          <button type="button" id="backBtn" class="ghost">Volver</button>
+        </div>
+      </div>
+
+      <div class="result-grid">
+        <div class="block">
+          <p class="label">Maridaje Turia</p>
+          <h3 id="dish"></h3>
+          <p id="dishReason" class="muted"></p>
+        </div>
+        <div class="block">
+          <p class="label">Playlist vibe</p>
+          <h3 id="playlistName"></h3>
+          <ul id="tracks" class="tracks"></ul>
+        </div>
+        <div class="block">
+          <p class="label">Texto final</p>
+          <p id="finalLine" class="final-line"></p>
+          <p id="easterEgg" class="easter-egg" hidden>¿Te atreves a pedirle a alguien su vibe?</p>
+        </div>
+      </div>
+
+      <div class="cta-row">
+        <button type="button" id="copyBtn" class="primary">Copiar resultado</button>
+        <button type="button" id="shareBtn" class="secondary">Compartir</button>
+      </div>
+      <p class="hint">Si tu dispositivo no permite compartir, copiamos el texto por ti.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
