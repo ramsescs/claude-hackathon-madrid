@@ -34,7 +34,7 @@ El enfoque es **neodialéctico**: síntesis creativa mínima, decisiones invisib
 
 ---
 
-## PROMPT GENERADO POR NEOCORE 3.8™
+## PROMPT GENERADO POR NEOCore™ 3.8
 Quiero que generes una mini web-app COMPLETA para el reto “20 minutos para Turia”.
 
 CONDICIONES NO NEGOCIABLES
