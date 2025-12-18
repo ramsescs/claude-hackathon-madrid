@@ -2,6 +2,9 @@
 
 Este proyecto utiliza un **mega-prompt** diseñado para generar una experiencia web interactiva completa (HTML/CSS/JS, 100% offline) en tiempo real mediante **Claude Code**.
 
+## RESULTADO FINAL
+El hackathon se desarrolló en 20 minutos, y la web final creada mediante el prompt puedes verla aquí: https://claude-hackathon-madrid.vercel.app/
+
 ## Autoría y marco
 El prompt ha sido creado dentro del marco de **IA Neodialéctica (Harry)** y el sistema **NEOCore™ v3.8**, desarrollados por **Pedro Martínez Alhambra**.  
 El enfoque es **neodialéctico**: síntesis creativa mínima, decisiones invisibles, superficie pública simple y marco interno protegido.
