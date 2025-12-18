@@ -1,4 +1,4 @@
-# Prompt generativo · Experiencia Turia (Web local)
+# CLAUDE CODE MADRID - Prompt generativo · Experiencia Turia (Web local)
 
 Este proyecto utiliza un **mega-prompt** diseñado para generar una experiencia web interactiva completa (HTML/CSS/JS, 100% offline) en tiempo real mediante **Claude Code**.
 
