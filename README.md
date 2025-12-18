@@ -3,7 +3,7 @@
 Este proyecto utiliza un **mega-prompt** diseñado para generar una experiencia web interactiva completa (HTML/CSS/JS, 100% offline) en tiempo real mediante **Claude Code**.
 
 ## RESULTADO FINAL
-El hackathon se desarrolló en 20 minutos entre 4 colaboradores (equipo 8):
+El hackaton se desarrolló en 20 minutos entre 4 colaboradores (equipo 8):
 
 - Pilar Hernanz Rodríguez
 - Diego Guaman Medina
